@@ -51,6 +51,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>waazdoh-ssh-repository</id>
+			<url>sftp://maven@maven.waazdoh.com/opt/maven/repository</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 
 		<dependency>
